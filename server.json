@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.json",
+  "name": "global.mycelium/emissions-database",
+  "description": "Open corporate carbon emissions database: search companies and retrieve scope 1, 2 and 3 greenhouse gas figures, Mycelium Scores and industry rankings.",
+  "repository": {
+    "url": "https://github.com/MyceliumNetwork/mcp-server",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mycelium.global/mcp/server"
+    }
+  ]
+}
